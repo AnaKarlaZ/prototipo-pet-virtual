@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(173, 255, 221);
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('pet.png');
+    background-size: cover;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
